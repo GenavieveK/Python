@@ -1,0 +1,11 @@
+#miles per hour and kilometers per hour
+MPH = 80
+KPH = 75
+
+#convert kilometers per hour to miles per hour and vice versa
+MPH_TO_KPH = MPH * 1.609
+KPH_TO_MPH = KPH / 1.609 
+
+#print results
+print(MPH, "miles per hour is", round(MPH_TO_KPH, 2), "kilometers per hour")
+print(KPH, "kilometers per hour is", round(KPH_TO_MPH, 2), "miles per hour" )
