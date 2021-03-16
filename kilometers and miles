@@ -1,8 +1,11 @@
+#hardcoded variables given for kilometers and miles.
 kilometers = 12.25
 miles = 7.38
 
+#functions for conversion to and from miles and kilometers.
 miles_to_kilometers = miles * 1.61
 kilometers_to_miles = 12.25 / 1.61
 
+#output for both
 print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
 print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
