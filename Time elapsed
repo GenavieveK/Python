@@ -1,0 +1,20 @@
+#Given the time an even starts and the elapsed minutes, outputs event end time.
+
+#user input for start time hour, start time minutes, and duration minutes.
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+
+#the hour input multiplied by the number of minutes in an hour added to the total minutes duration input, 
+#added to the number of minutes in the time input.
+total_mins = ((mins + (hour*60)+ dura))
+
+#convert the total_mins to a time. Hour is total_mins divided (floor division) by 60 minutes in an hour
+#then modulus 24 hours in a day.
+hours_answer = ((total_mins // 60) % 24)
+
+#total_minutes modulus 60 minutes in an hour
+mins_answer = (total_mins % 60)
+
+#output
+print("The event will end at: ", hours_answer ,":", mins_answer)
