@@ -1,8 +1,11 @@
+#hardcoded variables for fahrenheit and celsius
 Fahrenheit = 90
 Celsius = 45
 
+#calculations for Fahrenheit to Celsius and vice versa
 F_to_C = (Fahrenheit - 32) * 0.55555556
 C_to_F = (Celsius * 1.8) + 32
 
+#output conversions
 print(Fahrenheit, "degrees Fahrenheit is", round(F_to_C, 1), "degrees Celsius")
 print(Celsius, "degrees Celsius is", round(C_to_F, 1), "degrees Fahrenheit")
