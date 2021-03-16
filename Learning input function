@@ -1,0 +1,5 @@
+#first input function code, my own in sandbox/not assigned
+
+make = input("Enter make of vehicle:")
+model = input("Enter model of vehicle:")
+print("You have entered make and model: ", make + " " + model)
