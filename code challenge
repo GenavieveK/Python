@@ -1,6 +1,11 @@
 #Given traditional representation of x plus 1 over x 4 times.
 #Figure out code that must run and provide answers for specific set of input.
 
+# User enters value
 x = float(input("Enter value for x: "))
+
+#x plus 1 over x 4 times
 y = (1/(  x + (1 / ( x + (1 / (x + (1/x)))))))
+
+#output
 print("y =", y)
