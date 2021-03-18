@@ -1,3 +1,5 @@
+#Alt form of assignmnent using AND
+
 #setting variables for comparison
 big_s = "Spathiphyllum"
 small_s = "spathiphyllum"
