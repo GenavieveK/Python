@@ -1,0 +1,23 @@
+#setting variables for comparison
+big_s = "Spathiphyllum"
+small_s = "spathiphyllum"
+
+plant = input("Enter the name of a houseplant: ")
+
+#compare input to large S Spathiphyllum and print message
+if plant == big_s:
+    print("Spathiphyllum is the best plant ever!")
+    
+#exit to prevent comparison to next section
+(exit)
+
+#compare input to smsll s spathiphyllum and print message
+if plant == small_s:
+    print("No, I want a big Spathiphyllum!")
+    
+#exit to prevent comparison to next section
+(exit)
+
+#compare input to both small s and big s and print message
+if plant != big_s and plant != small_s:
+   print("Spathiphyllum! Not " + plant + "!")
