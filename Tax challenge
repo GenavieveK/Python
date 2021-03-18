@@ -1,0 +1,21 @@
+# Tax challenge tests input 10,000  100,000  1000 and -100
+
+#set variable for user input of tax amount
+income = float(input("Enter the annual income: "))
+
+#if user income less than 85528 thalers tax is 18% of income minus 556.02
+if income < 85528:
+    tax = .18 * income - 556.02
+
+#if user income more than or equal to 85528 tax is 32% of amount over 85528 plus 14,839
+elif income >= 85528:
+    tax = (14839 +(.32 *(income - 85528)))
+    
+#if tax calculates to less than or equal to 0 then no tax owed    
+if tax <= 0:
+    tax = 0
+    
+#round tax    
+tax = round(tax, 0)
+
+print("The tax is:", tax, "thalers")
