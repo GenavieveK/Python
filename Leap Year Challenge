@@ -1,0 +1,24 @@
+#Code tests are: 2000 Leap, 2015 Common, 1999 Common, 1996 Leap, 1580 not within calendar
+
+#User inputs year to check if within Gregorian calnedar, leap year,common year
+year = int(input("Enter a year: "))
+
+#Check to make sure within Gregorian calendar
+if year <= 1582:
+    print("Not within the Gregorian calendar period")
+
+#If the year is not divisible by 4, common year
+elif year % 4 != 0:
+    print("Common Year")
+    
+#If the year is not divisible by 100, leap year
+elif year % 100 != 0:
+    print("Leap Year")
+    
+#If the year is not divisible by 400, common year
+elif year % 400 != 0:
+    print("Common Year")
+    
+#all else leap year
+else:
+    print("Leap Year")
