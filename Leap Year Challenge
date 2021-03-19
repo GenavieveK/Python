@@ -1,6 +1,6 @@
 #Code tests are: 2000 Leap, 2015 Common, 1999 Common, 1996 Leap, 1580 not within calendar
 
-#User inputs year to check if within Gregorian calnedar, leap year,common year
+#User inputs year to check if within Gregorian calendar, leap year, common year
 year = int(input("Enter a year: "))
 
 #Check to make sure within Gregorian calendar
