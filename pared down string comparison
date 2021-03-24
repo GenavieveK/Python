@@ -1,7 +1,5 @@
-#Went back and reviewed the string comparison challenge with the houseplant input
-#Realized that the comparison variables don't have to be declared at the beginning
-#The program will compare the input to whatever, doesn't need a variable. Might be 
-#better for ease of understanding and future maintenance though...
+#Reviewed the string comparison challenge with the houseplant input
+#Realized that the comparison variables don't have to be global
 #This is the more streamlined code. Probably not necessary to put in this git but,
 #did not want to forget that there's yet another way to do it.
 
