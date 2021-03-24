@@ -1,0 +1,17 @@
+#Went back and reviewed the string comparison challenge with the houseplant input
+#Realized that the comparison variables don't have to be declared at the beginning
+#The program will compare the input to whatever, doesn't need a variable. Might be 
+#better for ease of understanding and future maintenance though...
+#This is the more streamlined code. Probably not necessary to put in this git but,
+#did not want to forget that there's yet another way to do it.
+
+plant = input("Please enter the name of a houseplant: ")
+
+if plant == "Spathipyllum" :
+    print("Yes! - Spathiphyllum is the best plant ever.")
+
+elif plant == "spathiphyllum" :
+    print("No! I want a BIG Spathiphyllum!")
+    
+else:
+    print("Spathiyphyllum! Not "+ plant + "!" )
